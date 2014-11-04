@@ -1,0 +1,350 @@
+Error	1	Unhandled exception (4.0.34.0, 32 bit, CLR 4.5, Release): PostSharp.Sdk.CodeModel.BindingException: Error while loading the type "PostsharpInterfaceIssue.AddStandardResponseCodes, PostsharpInterfaceIssue, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": System.TypeLoadException: Signature of the body and declaration in a method implementation do not match.  Type: 'PostsharpInterfaceIssue.AddStandardResponseCodes'.  Assembly: 'PostsharpInterfaceIssue, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.RuntimeAssembly.GetType(RuntimeAssembly assembly, String name, Boolean throwOnError, Boolean ignoreCase, ObjectHandleOnStack type)
+   at System.Reflection.RuntimeAssembly.GetType(String name, Boolean throwOnError, Boolean ignoreCase)
+   at System.Reflection.Assembly.GetType(String name, Boolean throwOnError)
+   at PostSharp.Sdk.CodeModel.AssemblyLoadHelper.^jJBt(Assembly _0, String _1, Boolean _2, Boolean _3)
+===== Start of PostSharp Assembly Binder ===========================
+Signature of the body and declaration in a method implementation do not match.  Type: 'PostsharpInterfaceIssue.AddStandardResponseCodes'.  Assembly: 'PostsharpInterfaceIssue, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+======Exception Details ============================================
+LOG: Loading type PostsharpInterfaceIssue.AddStandardResponseCodes from assembly PostsharpInterfaceIssue, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+LOG: 	(ClrHost) ProvideAssembly: "swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=x86".
+LOG: 	Finding the assembly with binding identity 'swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=x86'.
+LOG: 	Looking in GAC for swashbuckle.core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cd1bb07a5ac7c7bc, processorArchitecture=x86.
+LOG: 	Found file 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Swashbuckle.Core.4.1.0\lib\net40\Swashbuckle.Core.dll' with identity 'swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=msil'.
+LOG: 	Reference mismatch for 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Swashbuckle.Core.4.1.0\lib\net40\Swashbuckle.Core.dll' [ProcessorArchitectureMismatch].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\swashbuckle.core.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\swashbuckle.core.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\swashbuckle.core.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\swashbuckle.core.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Found file 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\swashbuckle.core.dll' with identity 'swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=msil'.
+LOG: 	Reference mismatch for 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\swashbuckle.core.dll' [ProcessorArchitectureMismatch].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\swashbuckle.core.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\swashbuckle.core.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\swashbuckle.core.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\swashbuckle.core.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\swashbuckle.core.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\swashbuckle.core.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\swashbuckle.core.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\swashbuckle.core.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\swashbuckle.core.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\swashbuckle.core.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	The assembly 'swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=x86' was not found.
+LOG: 	(ClrHost) ProvideAssembly: "swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=x86": file not found!
+LOG: 	(ClrHost) ProvideAssembly: "swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=msil".
+LOG: 	Finding the assembly with binding identity 'swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=msil'.
+LOG: 	Post-policy assembly binding identity is: swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=msil.
+LOG: 	Looking in GAC for swashbuckle.core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cd1bb07a5ac7c7bc, processorArchitecture=msil.
+LOG: 	Found file 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Swashbuckle.Core.4.1.0\lib\net40\Swashbuckle.Core.dll' with identity 'swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=msil'.
+LOG: 	Selecting file 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Swashbuckle.Core.4.1.0\lib\net40\Swashbuckle.Core.dll' with identity 'swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=msil'.
+LOG: 	(ClrHost) ProvideAssembly: "swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=msil": located in "D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Swashbuckle.Core.4.1.0\lib\net40\Swashbuckle.Core.dll".
+LOG: 	(ClrHost) ProvideAssembly: "swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=msil": returned successfully.
+LOG: 	(ClrHost) ProvideAssembly: "swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=msil".
+LOG: 	Finding the assembly with binding identity 'swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=msil'.
+LOG: 	Location found from cache: 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Swashbuckle.Core.4.1.0\lib\net40\Swashbuckle.Core.dll'.
+LOG: 	(ClrHost) ProvideAssembly: "swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=msil": located in "D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Swashbuckle.Core.4.1.0\lib\net40\Swashbuckle.Core.dll".
+LOG: 	(ClrHost) ProvideAssembly: "swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=msil": returned successfully.
+LOG: 	(ClrHost) ProvideAssembly: "newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=x86".
+LOG: 	Finding the assembly with binding identity 'newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=x86'.
+LOG: 	Looking in GAC for newtonsoft.json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=x86.
+LOG: 	Found file 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Newtonsoft.Json.6.0.3\lib\net45\Newtonsoft.Json.dll' with identity 'newtonsoft.json, version=6.0.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=msil'.
+LOG: 	Reference mismatch for 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Newtonsoft.Json.6.0.3\lib\net45\Newtonsoft.Json.dll' [ProcessorArchitectureMismatch].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Found file 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.dll' with identity 'newtonsoft.json, version=6.0.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=msil'.
+LOG: 	Reference mismatch for 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.dll' [ProcessorArchitectureMismatch].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	The assembly 'newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=x86' was not found.
+LOG: 	(ClrHost) ProvideAssembly: "newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=x86": file not found!
+LOG: 	(ClrHost) ProvideAssembly: "newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=msil".
+LOG: 	Finding the assembly with binding identity 'newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=msil'.
+LOG: 	Looking in GAC for newtonsoft.json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=msil.
+LOG: 	Found file 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Newtonsoft.Json.6.0.3\lib\net45\Newtonsoft.Json.dll' with identity 'newtonsoft.json, version=6.0.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=msil'.
+LOG: 	Reference mismatch for 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Newtonsoft.Json.6.0.3\lib\net45\Newtonsoft.Json.dll' [VersionMismatch].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Found file 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.dll' with identity 'newtonsoft.json, version=6.0.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=msil'.
+LOG: 	Reference mismatch for 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.dll' [VersionMismatch].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	The assembly 'newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=msil' was not found.
+LOG: 	(ClrHost) ProvideAssembly: "newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=msil": file not found!
+LOG: 	(ClrHost) ProvideAssembly: "newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed".
+LOG: 	Finding the assembly with binding identity 'newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed'.
+LOG: 	Looking in GAC for newtonsoft.json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=x86.
+LOG: 	Looking in GAC for newtonsoft.json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=msil.
+LOG: 	Looking in GAC for newtonsoft.json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed.
+LOG: 	Found file 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Newtonsoft.Json.6.0.3\lib\net45\Newtonsoft.Json.dll' with identity 'newtonsoft.json, version=6.0.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=msil'.
+LOG: 	Reference mismatch for 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Newtonsoft.Json.6.0.3\lib\net45\Newtonsoft.Json.dll' [VersionMismatch].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Found file 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.dll' with identity 'newtonsoft.json, version=6.0.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=msil'.
+LOG: 	Reference mismatch for 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.dll' [VersionMismatch].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	The assembly 'newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed' was not found.
+LOG: 	(ClrHost) ProvideAssembly: "newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed": file not found!
+LOG: 	OnAssemblyResolve: Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+LOG: 	NativeDotNetPlatform.LoadAssemblyFromName: newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed.
+LOG: 	Assembly 'newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed' is not yet loaded in the AppDomain.
+LOG: 	Finding the assembly with binding identity 'newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed'.
+LOG: 	Post-policy assembly binding identity is: newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed.
+LOG: 	Looking in GAC for Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=x86.
+LOG: 	Looking in GAC for Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=msil.
+LOG: 	Looking in GAC for Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed.
+LOG: 	Found file 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Newtonsoft.Json.6.0.3\lib\net45\Newtonsoft.Json.dll' with identity 'newtonsoft.json, version=6.0.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=msil'.
+LOG: 	Reference mismatch for 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Newtonsoft.Json.6.0.3\lib\net45\Newtonsoft.Json.dll' [VersionMismatch].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Found file 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.dll' with identity 'newtonsoft.json, version=6.0.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=msil'.
+LOG: 	Reference mismatch for 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.dll' [VersionMismatch].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	The assembly 'newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed' was not found.
+LOG: 	PostSharp.Sdk.CodeModel.AssemblyLoadException: Cannot find an assembly named 'Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'. [Version mismatch]
+============ PostSharp Assembly Loading Log ===================
+LOG: Loading type PostsharpInterfaceIssue.AddStandardResponseCodes from assembly PostsharpInterfaceIssue, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
+LOG: 	(ClrHost) ProvideAssembly: "swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=x86".
+LOG: 	Finding the assembly with binding identity 'swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=x86'.
+LOG: 	Looking in GAC for swashbuckle.core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cd1bb07a5ac7c7bc, processorArchitecture=x86.
+LOG: 	Found file 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Swashbuckle.Core.4.1.0\lib\net40\Swashbuckle.Core.dll' with identity 'swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=msil'.
+LOG: 	Reference mismatch for 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Swashbuckle.Core.4.1.0\lib\net40\Swashbuckle.Core.dll' [ProcessorArchitectureMismatch].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\swashbuckle.core.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\swashbuckle.core.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\swashbuckle.core.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\swashbuckle.core.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Found file 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\swashbuckle.core.dll' with identity 'swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=msil'.
+LOG: 	Reference mismatch for 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\swashbuckle.core.dll' [ProcessorArchitectureMismatch].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\swashbuckle.core.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\swashbuckle.core.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\swashbuckle.core.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\swashbuckle.core.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\swashbuckle.core.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\swashbuckle.core.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\swashbuckle.core.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\swashbuckle.core.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\swashbuckle.core.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\swashbuckle.core.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	The assembly 'swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=x86' was not found.
+LOG: 	(ClrHost) ProvideAssembly: "swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=x86": file not found!
+LOG: 	(ClrHost) ProvideAssembly: "swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=msil".
+LOG: 	Finding the assembly with binding identity 'swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=msil'.
+LOG: 	Post-policy assembly binding identity is: swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=msil.
+LOG: 	Looking in GAC for swashbuckle.core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cd1bb07a5ac7c7bc, processorArchitecture=msil.
+LOG: 	Found file 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Swashbuckle.Core.4.1.0\lib\net40\Swashbuckle.Core.dll' with identity 'swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=msil'.
+LOG: 	Selecting file 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Swashbuckle.Core.4.1.0\lib\net40\Swashbuckle.Core.dll' with identity 'swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=msil'.
+LOG: 	(ClrHost) ProvideAssembly: "swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=msil": located in "D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Swashbuckle.Core.4.1.0\lib\net40\Swashbuckle.Core.dll".
+LOG: 	(ClrHost) ProvideAssembly: "swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=msil": returned successfully.
+LOG: 	(ClrHost) ProvideAssembly: "swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=msil".
+LOG: 	Finding the assembly with binding identity 'swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=msil'.
+LOG: 	Location found from cache: 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Swashbuckle.Core.4.1.0\lib\net40\Swashbuckle.Core.dll'.
+LOG: 	(ClrHost) ProvideAssembly: "swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=msil": located in "D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Swashbuckle.Core.4.1.0\lib\net40\Swashbuckle.Core.dll".
+LOG: 	(ClrHost) ProvideAssembly: "swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=msil": returned successfully.
+LOG: 	(ClrHost) ProvideAssembly: "newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=x86".
+LOG: 	Finding the assembly with binding identity 'newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=x86'.
+LOG: 	Looking in GAC for newtonsoft.json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=x86.
+LOG: 	Found file 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Newtonsoft.Json.6.0.3\lib\net45\Newtonsoft.Json.dll' with identity 'newtonsoft.json, version=6.0.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=msil'.
+LOG: 	Reference mismatch for 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Newtonsoft.Json.6.0.3\lib\net45\Newtonsoft.Json.dll' [ProcessorArchitectureMismatch].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Found file 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.dll' with identity 'newtonsoft.json, version=6.0.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=msil'.
+LOG: 	Reference mismatch for 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.dll' [ProcessorArchitectureMismatch].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	The assembly 'newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=x86' was not found.
+LOG: 	(ClrHost) ProvideAssembly: "newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=x86": file not found!
+LOG: 	(ClrHost) ProvideAssembly: "newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=msil".
+LOG: 	Finding the assembly with binding identity 'newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=msil'.
+LOG: 	Looking in GAC for newtonsoft.json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=msil.
+LOG: 	Found file 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Newtonsoft.Json.6.0.3\lib\net45\Newtonsoft.Json.dll' with identity 'newtonsoft.json, version=6.0.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=msil'.
+LOG: 	Reference mismatch for 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Newtonsoft.Json.6.0.3\lib\net45\Newtonsoft.Json.dll' [VersionMismatch].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Found file 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.dll' with identity 'newtonsoft.json, version=6.0.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=msil'.
+LOG: 	Reference mismatch for 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.dll' [VersionMismatch].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	The assembly 'newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=msil' was not found.
+LOG: 	(ClrHost) ProvideAssembly: "newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=msil": file not found!
+LOG: 	(ClrHost) ProvideAssembly: "newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed".
+LOG: 	Finding the assembly with binding identity 'newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed'.
+LOG: 	Looking in GAC for newtonsoft.json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=x86.
+LOG: 	Looking in GAC for newtonsoft.json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=msil.
+LOG: 	Looking in GAC for newtonsoft.json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed.
+LOG: 	Found file 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Newtonsoft.Json.6.0.3\lib\net45\Newtonsoft.Json.dll' with identity 'newtonsoft.json, version=6.0.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=msil'.
+LOG: 	Reference mismatch for 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Newtonsoft.Json.6.0.3\lib\net45\Newtonsoft.Json.dll' [VersionMismatch].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Found file 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.dll' with identity 'newtonsoft.json, version=6.0.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=msil'.
+LOG: 	Reference mismatch for 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.dll' [VersionMismatch].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	The assembly 'newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed' was not found.
+LOG: 	(ClrHost) ProvideAssembly: "newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed": file not found!
+LOG: 	OnAssemblyResolve: Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+LOG: 	NativeDotNetPlatform.LoadAssemblyFromName: newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed.
+LOG: 	Assembly 'newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed' is not yet loaded in the AppDomain.
+LOG: 	Finding the assembly with binding identity 'newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed'.
+LOG: 	Post-policy assembly binding identity is: newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed.
+LOG: 	Looking in GAC for Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=x86.
+LOG: 	Looking in GAC for Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=msil.
+LOG: 	Looking in GAC for Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed.
+LOG: 	Found file 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Newtonsoft.Json.6.0.3\lib\net45\Newtonsoft.Json.dll' with identity 'newtonsoft.json, version=6.0.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=msil'.
+LOG: 	Reference mismatch for 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Newtonsoft.Json.6.0.3\lib\net45\Newtonsoft.Json.dll' [VersionMismatch].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Found file 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.dll' with identity 'newtonsoft.json, version=6.0.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed, processorarchitecture=msil'.
+LOG: 	Reference mismatch for 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.dll' [VersionMismatch].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\newtonsoft.json.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\newtonsoft.json.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\newtonsoft.json.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	The assembly 'newtonsoft.json, version=4.5.0.0, culture=neutral, publickeytoken=30ad4fe6b2a6aeed' was not found.
+===============================================================
+   at PostSharp.Hosting.NativeDotNetPlatform.LoadAssemblyFromName(IAssemblyName assemblyName, ReflectionLoadOptions options)
+   at PostSharp.Hosting.NativeDotNetPlatform.OnAssemblyResolve(ResolveEventArgs args, ReflectionLoadOptions options)
+LOG: 	(ClrHost) ProvideAssembly: "system.web.http, version=5.2.0.0, culture=neutral, publickeytoken=31bf3856ad364e35, processorarchitecture=x86".
+LOG: 	Finding the assembly with binding identity 'system.web.http, version=5.2.0.0, culture=neutral, publickeytoken=31bf3856ad364e35, processorarchitecture=x86'.
+LOG: 	Looking in GAC for system.web.http, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86.
+LOG: 	Found file 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Microsoft.AspNet.WebApi.Core.5.2.0\lib\net45\System.Web.Http.dll' with identity 'system.web.http, version=5.2.0.0, culture=neutral, publickeytoken=31bf3856ad364e35, processorarchitecture=msil'.
+LOG: 	Reference mismatch for 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Microsoft.AspNet.WebApi.Core.5.2.0\lib\net45\System.Web.Http.dll' [ProcessorArchitectureMismatch].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\system.web.http.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\system.web.http.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\ProgramData\PostSharp\4.0.34\bin.Release\system.web.http.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\system.web.http.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Found file 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\system.web.http.dll' with identity 'system.web.http, version=5.2.0.0, culture=neutral, publickeytoken=31bf3856ad364e35, processorarchitecture=msil'.
+LOG: 	Reference mismatch for 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\system.web.http.dll' [ProcessorArchitectureMismatch].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\bin\system.web.http.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\system.web.http.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\system.web.http.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\obj\Debug\system.web.http.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\system.web.http.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\system.web.http.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\system.web.http.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\system.web.http.exe' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\system.web.http.dll' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	Probing location 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\system.web.http.winmd' because this directory was explicitly added to the search path [File Not Found].
+LOG: 	The assembly 'system.web.http, version=5.2.0.0, culture=neutral, publickeytoken=31bf3856ad364e35, processorarchitecture=x86' was not found.
+LOG: 	(ClrHost) ProvideAssembly: "system.web.http, version=5.2.0.0, culture=neutral, publickeytoken=31bf3856ad364e35, processorarchitecture=x86": file not found!
+LOG: 	(ClrHost) ProvideAssembly: "system.web.http, version=5.2.0.0, culture=neutral, publickeytoken=31bf3856ad364e35, processorarchitecture=msil".
+LOG: 	Finding the assembly with binding identity 'system.web.http, version=5.2.0.0, culture=neutral, publickeytoken=31bf3856ad364e35, processorarchitecture=msil'.
+LOG: 	Post-policy assembly binding identity is: system.web.http, version=5.2.0.0, culture=neutral, publickeytoken=31bf3856ad364e35, processorarchitecture=msil.
+LOG: 	Looking in GAC for system.web.http, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=msil.
+LOG: 	Found file 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Microsoft.AspNet.WebApi.Core.5.2.0\lib\net45\System.Web.Http.dll' with identity 'system.web.http, version=5.2.0.0, culture=neutral, publickeytoken=31bf3856ad364e35, processorarchitecture=msil'.
+LOG: 	Selecting file 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Microsoft.AspNet.WebApi.Core.5.2.0\lib\net45\System.Web.Http.dll' with identity 'system.web.http, version=5.2.0.0, culture=neutral, publickeytoken=31bf3856ad364e35, processorarchitecture=msil'.
+LOG: 	(ClrHost) ProvideAssembly: "system.web.http, version=5.2.0.0, culture=neutral, publickeytoken=31bf3856ad364e35, processorarchitecture=msil": located in "D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Microsoft.AspNet.WebApi.Core.5.2.0\lib\net45\System.Web.Http.dll".
+LOG: 	(ClrHost) ProvideAssembly: "system.web.http, version=5.2.0.0, culture=neutral, publickeytoken=31bf3856ad364e35, processorarchitecture=msil": returned successfully.
+LOG: 	(ClrHost) ProvideAssembly: "system.web.http, version=5.2.0.0, culture=neutral, publickeytoken=31bf3856ad364e35, processorarchitecture=msil".
+LOG: 	Finding the assembly with binding identity 'system.web.http, version=5.2.0.0, culture=neutral, publickeytoken=31bf3856ad364e35, processorarchitecture=msil'.
+LOG: 	Location found from cache: 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Microsoft.AspNet.WebApi.Core.5.2.0\lib\net45\System.Web.Http.dll'.
+LOG: 	(ClrHost) ProvideAssembly: "system.web.http, version=5.2.0.0, culture=neutral, publickeytoken=31bf3856ad364e35, processorarchitecture=msil": located in "D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Microsoft.AspNet.WebApi.Core.5.2.0\lib\net45\System.Web.Http.dll".
+LOG: 	(ClrHost) ProvideAssembly: "system.web.http, version=5.2.0.0, culture=neutral, publickeytoken=31bf3856ad364e35, processorarchitecture=msil": returned successfully.
+LOG: 	AssemblyLoadException: Signature of the body and declaration in a method implementation do not match.  Type: 'PostsharpInterfaceIssue.AddStandardResponseCodes'.  Assembly: 'PostsharpInterfaceIssue, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+
+====================================================================
+
+    
+   at PostSharp.Sdk.CodeModel.AssemblyLoadHelper.^jJBt(Assembly _0, String _1, Boolean _2, Boolean _3)
+   at ^XJbqCOExOmCj.^NRQTI+sj(INamedType _0, BindingOptions _1)
+   at PostSharp.Sdk.CodeModel.TypeDefDeclaration.^VorA+nDk(BindingOptions _0)
+   at ^Mzw3\.bgGgRlJ.^cCM832sT[??0](Object _0, BindingOptions _1, ^d1u4kZd5aJLe _2)
+   at PostSharp.Sdk.CodeModel.TypeDefDeclaration.GetSystemType(Type[] genericTypeArguments, Type[] genericMethodArguments, BindingOptions options)
+   at PostSharp.Sdk.CodeModel.MethodDefDeclaration.^NqB3CEvX(BindingOptions _0)
+   at ^Mzw3\.bgGgRlJ.^cCM832sT[??0](Object _0, BindingOptions _1, ^d1u4kZd5aJLe _2)
+   at PostSharp.Sdk.CodeModel.MethodDefDeclaration.GetSystemMethod(Type[] genericTypeArguments, Type[] genericMethodArguments, BindingOptions bindingOptions)
+   at PostSharp.Sdk.CodeModel.MethodDefDeclaration.^xHA5o+hH(Type[] _0, Type[] _1, BindingOptions _2)
+   at PostSharp.Sdk.CodeModel.MetadataDeclaration.^UDRJYqgBJZ7t(Type[] _0, Type[] _1, BindingOptions _2)
+   at PostSharp.Sdk.AspectWeaver.AspectWeaverInstance..ctor(AspectWeaver aspectWeaver, AspectInstanceInfo aspectInstanceInfo)
+   at PostSharp.Sdk.AspectWeaver.AspectWeavers.MethodLevelAspectWeaverInstance..ctor(MethodLevelAspectWeaver aspectWeaver, AspectInstanceInfo aspectInstanceInfo)
+   at ^wy1eTA/ccvw/.CreateAspectWeaverInstance(AspectInstanceInfo _0)
+   at PostSharp.Sdk.AspectWeaver.AspectWeaverTask.^lp9i7ZhC(InstructionWriter _0, AspectInstanceInfo _1, StructuredDeclarationDictionary`1 _2)
+   at PostSharp.Sdk.AspectWeaver.AspectWeaverTask.^PwCoSAhI.^Qs9Uz9QP(IMetadataDeclaration _0, AspectInstanceInfo _1)
+   at PostSharp.Sdk.AspectInfrastructure.StructuredDeclarationDictionary`1.^lNgKC+Z4(IMetadataDeclaration _0, Func`3 _1)
+   at PostSharp.Sdk.AspectInfrastructure.StructuredDeclarationDictionary`1.^RdBVqi\.M.^8/pSq47Q(IMetadataDeclaration _0)
+   at PostSharp.Sdk.AspectInfrastructure.StructuredDeclarationDictionary`1.^d+wOzSPF(IMetadataDeclaration _0, Func`2 _1)
+   at PostSharp.Sdk.AspectInfrastructure.StructuredDeclarationDictionary`1.^+g+TCqVg(TypeDefDeclaration _0, Func`2 _1, Set`1 _2)
+   at PostSharp.Sdk.AspectInfrastructure.StructuredDeclarationDictionary`1.^fJqG(Func`2 _0)
+   at PostSharp.Sdk.AspectInfrastructure.StructuredDeclarationDictionary`1.^fJqG(Func`3 _0)
+   at PostSharp.Sdk.AspectWeaver.AspectWeaverTask.Execute()
+   at PostSharp.Sdk.Extensibility.Project.ExecutePhase(String phase)
+   at PostSharp.Sdk.Extensibility.Project.Execute()
+   at PostSharp.Hosting.PostSharpObject.ExecuteProjects()
+   at PostSharp.Hosting.PostSharpObject.InvokeProject(ProjectInvocation projectInvocation).	D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue\PostsharpInterfaceIssue.csproj	PostsharpInterfaceIssue
