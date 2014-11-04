@@ -45,13 +45,5 @@ The following error occurs:
 
 > Unhandled exception (4.0.34.0, 32 bit, CLR 4.5, Release): PostSharp.Sdk.CodeModel.BindingException: Error while loading the type "PostsharpInterfaceIssue.AddStandardResponseCodes, PostsharpInterfaceIssue, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": System.TypeLoadException: Signature of the body and declaration in a method implementation do not match.  Type: 'PostsharpInterfaceIssue.AddStandardResponseCodes'.  Assembly: 'PostsharpInterfaceIssue, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
 
-The information following is further down:
-
-> LOG: Loading type PostsharpInterfaceIssue.AddStandardResponseCodes from assembly PostsharpInterfaceIssue, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.
-> LOG: 	(ClrHost) ProvideAssembly: "swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=x86".
-> LOG: 	Finding the assembly with binding identity 'swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=x86'.
-> LOG: 	Looking in GAC for swashbuckle.core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cd1bb07a5ac7c7bc, processorArchitecture=x86.
-> LOG: 	Found file 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Swashbuckle.Core.4.1.0\lib\net40\Swashbuckle.Core.dll' with identity 'swashbuckle.core, version=1.0.0.0, culture=neutral, publickeytoken=cd1bb07a5ac7c7bc, processorarchitecture=msil'.
-> LOG: 	Reference mismatch for 'D:\Code\Dropbox\GitHub\PostsharpInterfaceIssue\PostsharpInterfaceIssue\packages\Swashbuckle.Core.4.1.0\lib\net40\Swashbuckle.Core.dll' [ProcessorArchitectureMismatch].
 
 The full dump of the error is in the error.txt file in this repo
